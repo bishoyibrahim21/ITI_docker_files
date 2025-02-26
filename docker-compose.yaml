@@ -1,0 +1,6 @@
+services:
+  frontend:
+    image: bishoyibrahim21/iti_webpage_nginx:v2
+    container_name: Frontend
+    ports:
+      - 8080:80
